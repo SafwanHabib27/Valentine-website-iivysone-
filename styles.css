@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: red;
+    font-size: 36px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.yes-button {
+    background-color: red;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.no-button {
+    background-color: grey;
+    color: white;
+    border: none;
+}
+
+#response-message {
+    margin-top: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Shake animation for the No button */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
